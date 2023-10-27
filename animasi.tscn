@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bephg6so572a7"]
+
+[ext_resource type="PackedScene" uid="uid://c4tipkadm3h5a" path="res://jalan.tscn" id="1_vnhpp"]
+[ext_resource type="PackedScene" uid="uid://las40meca4dk" path="res://player.tscn" id="2_4ef3c"]
+
+[node name="animasi" type="Node2D"]
+
+[node name="jalan" parent="." instance=ExtResource("1_vnhpp")]
+position = Vector2(5, -6)
+
+[node name="Player" parent="." instance=ExtResource("2_4ef3c")]
+position = Vector2(579, 465)
